@@ -14,4 +14,12 @@ public class Foo {
         return a + b;
     }
 
+    public ArrayList method2() {
+        String[] strings = {"a", "b", "c"};
+        ArrayList list = new ArrayList();
+        for (int i = 0; i < strings.length; i++) {
+            list.add(strings[i]);
+        }
+        return list;
+    }
 }
