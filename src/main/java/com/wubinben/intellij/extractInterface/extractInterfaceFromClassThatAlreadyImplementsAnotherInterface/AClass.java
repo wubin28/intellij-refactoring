@@ -2,7 +2,7 @@ package com.wubinben.intellij.extractInterface.extractInterfaceFromClassThatAlre
 
 import com.wubinben.intellij.extractInterface.AnInterface;
 
-public class AClass implements AnInterface {
+public class AClass implements AnotherInterface {
     public void publicMethod() {
         //some code here
     }
