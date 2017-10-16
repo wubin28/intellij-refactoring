@@ -3,10 +3,9 @@ package com.wubinben.intellij.extractParameterObject;
 import java.awt.*;
 
 public class A {
-    private void drawEdge(Graphics g, float edgeWidth,
-                          int x1, int x2, int y1, int y2) {
+    private void drawEdge(Graphics g, Edge edge) {
         final Graphics2D g2d = (Graphics2D) g;
-        g2d.setStroke(new BasicStroke(edgeWidth));
-        g.drawLine(x1, y1, x2, y2);
+        g2d.setStroke(new BasicStroke(edge.getEdgeWidth()));
+        g.drawLine(edge.getX1(), edge.getY1(), edge.getX2(), edge.getY2());
     }
 }
