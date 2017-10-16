@@ -1,7 +1,6 @@
 package com.wubinben.intellij.extractInterface;
 
-public class AClass {
-    public static final double CONSTANT=3.14;
+public class AClass implements AnInterface {
 
     public void publicMethod() {
         //some code here
