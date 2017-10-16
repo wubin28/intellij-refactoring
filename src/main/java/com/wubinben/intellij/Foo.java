@@ -1,8 +1,9 @@
 package com.wubinben.intellij;
 
 public class Foo {
-    private String b;
+    private final Info info = new Info();
+
     public String getInfo() {
-        return ("(" + b + ")");
+        return info.getInfo();
     }
 }
