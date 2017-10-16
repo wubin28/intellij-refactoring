@@ -1,4 +1,4 @@
-package com.wubinben.intellij;
+package com.wubinben.intellij.extractDelegate;
 
 public class Info {
     private String b;
