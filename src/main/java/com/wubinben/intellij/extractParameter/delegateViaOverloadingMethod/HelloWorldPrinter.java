@@ -4,7 +4,12 @@ public class HelloWorldPrinter {
     public static void print() {
         System.out.println(generateText());
     }
+
     private static String generateText() {
-        return "Hello, World!".toUpperCase();
+        return generateText("Hello, World!");
+    }
+
+    private static String generateText(String text) {
+        return text.toUpperCase();
     }
 }
