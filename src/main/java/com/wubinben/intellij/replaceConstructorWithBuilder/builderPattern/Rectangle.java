@@ -1,4 +1,4 @@
-package com.wubinben.intellij.replaceConstructorWithBuilder;
+package com.wubinben.intellij.replaceConstructorWithBuilder.builderPattern;
 
 import java.awt.*;
 
