@@ -1,8 +1,8 @@
 package com.wubinben.intellij.extractInterface.extractInterfaceFromClassThatAlreadyImplementsAnotherInterface;
 
-import com.wubinben.intellij.extractInterface.AnInterface;
 
-public class AClass implements AnotherInterface {
+public class AClass implements AnInterface {
+    public static final double CONSTANT=3.14;
     public void publicMethod() {
         //some code here
     }
