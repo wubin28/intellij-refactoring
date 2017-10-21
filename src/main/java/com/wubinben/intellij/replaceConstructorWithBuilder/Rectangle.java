@@ -8,7 +8,7 @@ public class Rectangle {
     public void show() {
     }
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(1, 2, 3, 4, 5, Color.green, Color.blue);
+        Rectangle rectangle = new RectangleBuilder().setX(1).setY(2).setWidth(3).setHeight(4).setThickness(5).setFillColor(Color.green).setBorderColor(Color.blue).createRectangle();
         rectangle.show();
     }
 }
