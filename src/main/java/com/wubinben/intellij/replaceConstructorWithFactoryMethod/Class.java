@@ -1,6 +1,10 @@
 package com.wubinben.intellij.replaceConstructorWithFactoryMethod;
 
 public class Class {
-    public Class(String s) {
+    private Class(String s) {
+    }
+
+    public static Class createClass(String s) {
+        return new Class(s);
     }
 }
