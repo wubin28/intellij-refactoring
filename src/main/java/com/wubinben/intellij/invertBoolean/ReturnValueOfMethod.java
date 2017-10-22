@@ -6,8 +6,8 @@ public class ReturnValueOfMethod {
     public boolean method() {
         if (a > 15 && a < 100) {
             a = 5;
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
 }

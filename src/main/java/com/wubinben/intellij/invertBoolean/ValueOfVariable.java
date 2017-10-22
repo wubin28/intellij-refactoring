@@ -1,11 +1,11 @@
 package com.wubinben.intellij.invertBoolean;
 
 public class ValueOfVariable {
-    boolean b = true;
+    boolean b = false;
     //...
     public double method() {
         //...
-        b = false;
+        b = true;
         //...
         return 0.0;
     }
