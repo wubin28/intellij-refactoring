@@ -1,8 +1,8 @@
 package com.wubinben.intellij.typeMigration;
 
 public class FromIntToString {
-    int f;
-    void bar(int i) {}
+    String f;
+    void bar(String i) {}
     void foo() {
         bar(f);
     }
