@@ -1,11 +1,11 @@
 package com.wubinben.intellij.extractFunctionalParameter;
 
 public class Hello {
-    private void printHello () {
-        String s="Hello";
-        System.out.println(s);
+    private void printHello(Person person) {
+        String s = "Hello";
+        person.sayHello(s);
     }
     private void printText () {
-        printHello();
+        printHello(System.out::println);
     }
 }
