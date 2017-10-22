@@ -16,8 +16,7 @@ public class Foo {
 
     public ArrayList method2() {
         String[] strings = {"a", "b", "c"};
-        ArrayList list = add(strings);
-        return list;
+        return add(strings);
     }
 
     private ArrayList add(String[] strings) {
