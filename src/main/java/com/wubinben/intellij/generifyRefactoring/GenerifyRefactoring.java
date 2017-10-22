@@ -5,7 +5,7 @@ import java.util.List;
 
 public class GenerifyRefactoring {
     public void method() {
-        List list = new LinkedList();
+        List<String> list = new LinkedList<>();
         list.add("string");
     }
 }
