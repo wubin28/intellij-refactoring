@@ -5,11 +5,9 @@ public class InlineVariable {
     private int a;
 
     public void method() {
-        int number = anotherClass.intValue();
-        int b = a + number;
+        int b = a + anotherClass.intValue();
 
-        AnotherClass.InnerClass aClass = anotherClass.innerClass;
-        int a = aClass.i;
+        int a = anotherClass.innerClass.i;
     }
 
     private class AnotherClass {
