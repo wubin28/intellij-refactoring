@@ -1,6 +1,7 @@
 package com.wubinben.intellij.extractFunctionalVariable;
 
 import java.util.List;
+import java.util.function.Function;
 
 public class PrintAction implements Runnable {
     private List<String> data;
@@ -11,6 +12,7 @@ public class PrintAction implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Data: " + data.toString());
+        Function<List<String>, String> presenter = p -> "Data: " + p.toString();
+        System.out.println(presenter.apply(data));
     }
 }
