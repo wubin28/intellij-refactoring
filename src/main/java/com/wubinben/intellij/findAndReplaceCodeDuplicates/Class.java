@@ -5,8 +5,8 @@ public class Class {
     public void method() {
         int a = 1;
         int b = 2;
-        int c = a+b;
-        int d = b+c;
+        int c = add(a, b);
+        int d = add(b, c);
     }
 
     private int add(int a, int b) {
