@@ -5,7 +5,4 @@ public class Class extends SuperClass {
         //...
     }
 
-    public void hiddenMethod() {
-        //...
-    }
 }
